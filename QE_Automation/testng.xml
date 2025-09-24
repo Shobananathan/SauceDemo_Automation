@@ -1,0 +1,32 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AppSuite" parallel="tests" thread-count="2">
+
+    <!--
+       <test name="BankTests">
+           <parameter name="app" value="bank"/>
+           <packages>
+               <package name="ACME_Demo_Banking.test"/>
+           </packages>
+       </test>
+
+
+
+       <test name="SauceTests">
+           <parameter name="app" value="sauce"/>
+           <packages>
+               <package name="saucedemo.sauce_test"/>
+           </packages>
+       </test>
+       -->
+
+
+
+    <test name="ContactTests">
+        <parameter name="app" value="contact"/>
+        <packages>
+            <package name="contact_list.contact_test"/>
+        </packages>
+    </test>
+
+
+</suite>

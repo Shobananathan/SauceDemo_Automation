@@ -1,0 +1,9 @@
+saucedemo\sause_test\SauceDemoTest.class
+contact_list\contact_test\ContactTest.class
+saucedemo\page\loginPage.class
+base\Base.class
+saucedemo\data_provider\SauceDemo_DP.class
+utility\ExcelManager.class
+contact_list\page\ContactPage.class
+ACME_Demo_Banking\page\BankLoginPage.class
+ACME_Demo_Banking\test\demoTest.class
